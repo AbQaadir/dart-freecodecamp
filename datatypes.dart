@@ -3,7 +3,7 @@ void main() {
   int age = 20;
   print(age);
 
-  // double
+  // double (floating point number)
   double pi = 3.14;
   print(pi);
 
@@ -36,6 +36,5 @@ void main() {
     'age': 20,
     'isStudent': true
   };
-
   print(user);
 }
