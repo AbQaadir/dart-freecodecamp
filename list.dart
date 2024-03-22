@@ -7,6 +7,14 @@ void displayIntegers(List<int> numbers) {
   print('-------------------');
 }
 
+// display Mixed list
+void displayMixedList(List mixedList) {
+  for (int i = 0; i < mixedList.length; i++) {
+    print(mixedList[i]);
+  }
+  print('-------------------');
+}
+
 void main() {
   // List of integers
   List<int> numbers = [1, 2, 3, 4, 5];
@@ -63,4 +71,10 @@ void main() {
 
   // display the list of integers
   displayIntegers(numbers);
+
+  // Mixed list with different data types
+  List mixedList = [1, 2.5, 'Hello', true];
+
+  // Display the mixed list
+  displayMixedList(mixedList);
 }
