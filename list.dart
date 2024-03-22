@@ -51,4 +51,16 @@ void main() {
 
   // display the list of integers
   displayIntegers(numbers);
+
+  // addAll method
+  numbers.addAll([6, 7, 8, 9, 10]);
+
+  // display the list of integers
+  displayIntegers(numbers);
+
+  // insertAll method
+  numbers.insertAll(1, [20, 30, 40]);
+
+  // display the list of integers
+  displayIntegers(numbers);
 }
