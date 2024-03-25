@@ -16,7 +16,8 @@ void main() {
 
   print("Enter a number: ");
   try {
-    int number = int.parse(stdin.readLineSync()!);
+    int number = int.parse(
+        stdin.readLineSync()!); // ! is used to remove null safety warning
     print(number);
   } catch (e) {
     print("Invalid input");

@@ -38,4 +38,12 @@ void main() {
 
   // check if the map is not empty
   print(details.isNotEmpty);
+
+  // create a map with a specific type
+  Map<String, dynamic> user = {
+    'name': 'John Doe',
+    'age': 20,
+    'isStudent': true
+  };
+  print(user);
 }
